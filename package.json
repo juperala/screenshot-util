@@ -1,0 +1,32 @@
+{
+  "name": "screenshot-util",
+  "version": "1.0.0",
+  "description": "Simple command-line util to take webpage screenshots.",
+  "main": "screenshot.js",
+  "scripts": {
+    "screenshot-util": "node screenshot.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juperala/screenshot-util.git"
+  },
+  "keywords": [
+    "Screenshot",
+    "Browser",
+    "WebDriver"
+  ],
+  "author": {
+    "name": "Juho Perälä",
+    "email": "juho.e.perala@gmail.com",
+    "url": "https://jperala.fi/"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/juperala/screenshot-util/issues"
+  },
+  "homepage": "https://github.com/juperala/screenshot-util#readme",
+  "dependencies": {
+    "selenium-webdriver": "^4.0.0-alpha.1"
+  }
+}
